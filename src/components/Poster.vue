@@ -2,7 +2,9 @@
     <div class="posters">
         <div class="poster">
             <div class="composition">
-                <img src="../assets/poster1.jpeg" alt="photo 1" class="poster-photo poster1">
+                <router-link to="/moviedetail/tt13544716">
+                    <img src="../assets/poster1.jpeg" alt="photo 1" class="poster-photo poster1">
+                </router-link>
             </div>
             <div class="composition">
                 <img src="../assets/tokyo-24.jpeg"  alt="photo 2" class="poster-photo poster2">
@@ -16,7 +18,8 @@
         <p>
         <router-link to="/">
             <p class="back">MoviezApp</p>
-      </router-link> One stop entertainment Database</p>
+      </router-link> For Details on your Favourite TV Series, Movies, Games, Chinese Drama, Anime, Animation and Cartoons for free! <br>
+        If you like our site then kindly recommend it to your friends.</p>
         
     </summary>
 </template>
