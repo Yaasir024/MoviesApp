@@ -14,7 +14,7 @@
     <main>
         <div class="search-bar">
           <p>SEARCH</p>
-          <form @submit.prevent="searchMovie()" class="search-box">
+          <form @submit="searchMovie()" class="search-box">
             <input v-model="searchInput" type="text" placeholder="Search....">
             <button type="submit">
               <i class="fa fa-solid fa-magnifying-glass"></i>
