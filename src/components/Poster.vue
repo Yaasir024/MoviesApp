@@ -2,13 +2,13 @@
     <div class="posters">
         <div class="poster">
             <div class="composition">
-                <img src="../assets/poster1.jpeg" alt="photo 1" class="composition__photo poster1">
+                <img src="../assets/poster1.jpeg" alt="photo 1" class="poster-photo poster1">
             </div>
             <div class="composition">
-                <img src="../assets/tokyo-24.jpeg"  alt="photo 2" class="composition__photo poster2">
+                <img src="../assets/tokyo-24.jpeg"  alt="photo 2" class="poster-photo poster2">
             </div>
             <div class="composition">
-                <img src="../assets/spiderman.jpg"  alt="photo 3" class="composition__photo poster3">
+                <img src="../assets/spiderman.jpg"  alt="photo 3" class="poster-photo poster3">
             </div>
         </div>
     </div>
@@ -39,7 +39,7 @@ export default {
         width: 300px;
         position: relative;
     }
-    .composition__photo {
+    .poster-photo {
         width: 200px;
         box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, 0.4);
         border-radius: 4px;
@@ -72,4 +72,27 @@ export default {
     summary .back:hover {
         color: #707070;
     }
+    @media screen and (max-width: 600px) {
+        .poster-photo {
+            width: 170px; 
+        }
+        .poster1 {
+            right: 60%;
+            top: 0; 
+        }
+        .poster2 {
+            left: 60%;
+            top: 0; 
+        }
+        .poster3 {
+            left: 20%;
+            top: .9rem; 
+        }
+    }
+    @media screen and (max-width: 400px) {
+        .poster-photo {
+            width: 150px; 
+        }
+    }
+  
 </style>
