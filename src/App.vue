@@ -1,7 +1,7 @@
 <template>
   <header>
       <router-link to="/">
-        <h1><span>Movies</span>App</h1>
+        <h1><span>Moviez</span>App</h1>
       </router-link>   
   </header>
   <router-view/>
